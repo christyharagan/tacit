@@ -1,0 +1,29 @@
+{
+  "name": "tacit",
+  "version": "0.1.0",
+  "description": "Tacit/point-free function chains.",
+  "license": "MIT",
+  "repository": "christyharagan/tacit",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": ["functional", "point-free", "tacit"],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.0.0"
+  },
+  "main": "lib/index.js"
+}

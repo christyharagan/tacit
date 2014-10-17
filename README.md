@@ -13,7 +13,8 @@ Underscore:
 var countUnique = function(array) {
   return _.chain(array)
     .uniq()
-    .size();
+    .size()
+    .value();
 }
 ```
 
@@ -23,7 +24,8 @@ Lo-dash
 var countUnique = function(array) {
   return _(array)
     .uniq()
-    .size();
+    .size()
+    .value();
 }
 ```
 
